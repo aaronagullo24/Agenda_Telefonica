@@ -30,3 +30,5 @@ Route::get('/cancelar',function(){
 
 
 Route::get('/agenda/{id}/confirm','AgendaController@confirm')->name('agenda.confirm');
+
+
