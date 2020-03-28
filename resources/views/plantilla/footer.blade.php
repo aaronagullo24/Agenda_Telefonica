@@ -7,7 +7,7 @@
            <div class="row">
                <div class="col-xs-12 col-sm-6 col-md-4 footers-one ">
                 <div class="footers-logo">
-                  <img class="img-responsive" src="https://imge.apk.tools/300/d/3/1/com.widesoft.guiatelefonica.png" style="width: 50px;
+                  <img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/61Oz-D6bCgL._AC_SY679_.jpg" style="width: 50px;
     ">
                     
                 </div>
