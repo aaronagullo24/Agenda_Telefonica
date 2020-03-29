@@ -23,7 +23,19 @@ class AgendaController extends Controller
         $buscar = $request->get('buscarpor');
         $tipo = $request->get('tipo');
 
-        $Agenda = Agenda::buscarpor($tipo,$buscar)->paginate(5);
+        /*$variablesurl=[
+            'tipo'=>$tipo,
+            'buscarpor'=>$buscar
+        ];*/
+
+        //$variablesurl = $request->all();
+        //$variablesurl = $request->input();
+        //$variablesurl = $request->query();
+        //$variablesurl = $request->except(['page']);
+        //$variablesurl = $_GET;
+        //$Agenda = Agenda::buscarpor($tipo,$buscar)->paginate(5)->appends($variablesurl);
+
+        $Agenda=Agenda::buscarpor($tipo,$buscar)->paginate(5);
         return view('agenda.index', compact('Agenda'));
     }
 

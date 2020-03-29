@@ -141,7 +141,7 @@
                                   </tbody>
                                 </table>
 
-                                {{ $Agenda }}
+                                {{ $Agenda->appends($_GET)->links() }}
 </div>
 
 <br>
