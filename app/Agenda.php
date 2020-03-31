@@ -8,6 +8,7 @@ class Agenda extends Model
 {
     public function scopeBuscarpor($query,$tipo ,$buscar){
         if(($tipo) && ($buscar)){
+            //return del buscador
             return $query->where($tipo,'like',"%$buscar%");
         }
     }
